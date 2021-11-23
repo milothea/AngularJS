@@ -1,0 +1,47 @@
+.title {
+  color: #08837e;
+  text-align: center;
+}
+
+.heroes,
+.details {
+  border-radius: .5rem;
+}
+
+.heroes {
+  width: 10rem;
+  background-color: #faf1c4;
+  padding: 2rem 4rem;
+  &__hero{
+    height: 2rem;
+    margin-top: .5rem;
+    line-height: 2rem;
+    list-style: none;
+    border-radius: .4rem;
+    color: #15097b;
+    background-color: #dbedf9;
+    &.selected {
+      background-color: #dbc3fc;
+      font-weight: 700;
+    }
+  }
+  & .badge {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-color: #dbc3fc;
+    border-radius: .4rem;
+    color: #15097b;
+    font-weight: 700;
+    text-align: center;
+  }
+}
+
+.details {
+  margin-top: 2rem;
+  background-color: #fde873;
+  padding: 1rem;
+  &__title {
+    margin: 0;
+  }
+}
