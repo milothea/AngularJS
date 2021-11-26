@@ -1,16 +1,7 @@
-.title {
-  color: #08837e;
-  text-align: center;
-}
-
-.heroes,
-.details {
-  border-radius: .5rem;
-}
-
 .heroes {
   width: 10rem;
   background-color: #faf1c4;
+  border-radius: .5rem;
   padding: 2rem 4rem;
   &__hero{
     height: 2rem;
@@ -34,14 +25,5 @@
     color: #15097b;
     font-weight: 700;
     text-align: center;
-  }
-}
-
-.details {
-  margin-top: 2rem;
-  background-color: #fde873;
-  padding: 1rem;
-  &__title {
-    margin: 0;
   }
 }
