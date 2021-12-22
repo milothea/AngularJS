@@ -1,13 +1,20 @@
+@mixin hover {
+  cursor: pointer;
+  background-color: #dbc3fc;
+}
+
 .heroes {
   width: 10rem;
   background-color: #faf1c4;
   border-radius: .5rem;
   padding: 2rem 4rem;
+  margin: 0 auto;
   & a {
     text-decoration: none;
     color: #15097b;
   }
   &__hero{
+    position: relative;
     height: 2rem;
     margin-top: .5rem;
     line-height: 2rem;
@@ -29,4 +36,41 @@
     font-weight: 700;
     text-align: center;
   }
+
+  .delete {
+    position: absolute;
+    top: .5rem;
+    right: .5rem;
+    border: none;
+    border-radius: .3rem;
+    background-color: #faf1c4;
+    color: #e15021;
+    &:hover {
+      @include hover();
+    }
+  }
 }
+
+.label,
+.add-button {
+  color: #2e4d90;
+  font-weight: 600;
+}
+
+.input {
+  border: none;
+  background-color: #faf1c4;
+  margin-left: .5rem;
+  margin-right: .5rem;
+}
+
+.add-button {
+  background-color: #fde873;
+  border: none;
+  border-radius: .3rem;
+  &:hover {
+    @include hover();
+  }
+}
+
+
