@@ -1,0 +1,22 @@
+h1 {
+  color: #0d1d47;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 30%;
+  height: 2.5rem;
+}
+
+nav a {
+  display: block;
+  width: 45%;
+  height: 100%;
+  line-height: 2.5rem;
+  text-align: center;
+  color: #2e4d90;
+  background-color: #dbc3fc;
+  border-radius: .5rem
+}

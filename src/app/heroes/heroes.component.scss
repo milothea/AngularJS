@@ -3,13 +3,16 @@
   background-color: #faf1c4;
   border-radius: .5rem;
   padding: 2rem 4rem;
+  & a {
+    text-decoration: none;
+    color: #15097b;
+  }
   &__hero{
     height: 2rem;
     margin-top: .5rem;
     line-height: 2rem;
     list-style: none;
     border-radius: .4rem;
-    color: #15097b;
     background-color: #dbedf9;
     &.selected {
       background-color: #dbc3fc;

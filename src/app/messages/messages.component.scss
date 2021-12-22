@@ -1,0 +1,22 @@
+.messages-wrapper {
+  margin-top: 3rem;
+}
+
+h2,
+.message,
+.clear { color: #858585; }
+
+h2 {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.message {
+  width: 15rem;
+}
+.clear {
+  border: none;
+  background-color: #E6D9F5;
+  border-radius: .3rem;
+  margin-left: .5rem;
+}

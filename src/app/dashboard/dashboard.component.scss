@@ -1,0 +1,28 @@
+h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  color: #f4c44c;
+}
+
+.heroes-menu {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  width: 50%;
+}
+.hero {
+  display: block;
+  height: 3rem;
+  margin-left: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #dbc3fc;
+  color: #4f2e90;
+  line-height: 3rem;
+  border-radius: .3rem;
+  text-decoration: none;
+}
+
+
